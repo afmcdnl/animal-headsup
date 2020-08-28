@@ -1,4 +1,4 @@
-input.onGesture(Gesture.LogoUp, function () {
+input.onGesture(Gesture.Shake, function () {
     Animal = text_list.removeAt(randint(0, text_list.length))
     basic.showString("" + (Animal))
 })
