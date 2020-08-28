@@ -4,7 +4,7 @@ input.onGesture(Gesture.LogoUp, function () {
 })
 let Animal = ""
 let text_list: string[] = []
-text_list = ["turtle", "frog", "dog", "cat", "snake", "elephant", ""]
+text_list = ["turtle", "frog", "dog", "cat", "snake", "elephant", "tiger"]
 basic.forever(function () {
     if (0 == text_list.length) {
         control.reset()
